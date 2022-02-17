@@ -152,3 +152,16 @@ input.ekit_mail_email.ekit_form_control {
     color: #ffffff;
     background-color: #d08e02;
 }
+@media (max-width:767px) {
+    .text-box h1 {
+        text-transform: uppercase;
+        font-size: 2.5rem;
+    }
+    #about-banner h2 {
+        font-size: 3rem;
+    }
+    section#content iframe {
+        width: 100%;
+        height: 350px;
+    }
+}
